@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/MeuCSS/login.css" rel="stylesheet" />
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="nave">
+            <img class="imagem-principal" src="~/imagens/logo wal fundo transparente-escrito.png" alt="">
+        </nav>
+    </header>
+
+    <main>
+        <div> <section class="banner-fundo"></section> </div>
+        <div class="container">
+
+            @RenderBody()
+
+
+
+        </div>
+
+    </main>
+    <script src="~/Scripts/MeusScripts/Login.js"></script>
+    <script src="https://kit.fontawesome.com/80a95ce8fb.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
