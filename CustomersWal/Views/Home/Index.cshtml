@@ -2,30 +2,209 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+@*<div class="jumbotron">
+        <h1>ASP.NET</h1>
+        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+        <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Getting started</h2>
+            <p>
+                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+                enables a clean separation of concerns and gives you full control over markup
+                for enjoyable, agile development.
+            </p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Get more libraries</h2>
+            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+            <h2>Web Hosting</h2>
+            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+            <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        </div>
+    </div>*@
+
+<header class="cabecalho">
+    <nav class="nave">
+        <img class="imagem-principal" src="imagens/logo.png" alt="">
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <ul class="nav-list">
+            <li> <a href="/">Inicio</a> </li>
+            <li> <a href="/">Sobre</a> </li>
+            <li> <a href="/">Mangá</a> </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div>
+        <section class="banner-fundo"></section>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <div id="titulo">
+        <h1>SHUUMATSU NO VALKYRIE</h1>
     </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+    <nav class="trocar-layout">
+        <a href="#" class="button1">Humanos</a>
+        <a href="seletor-deuses.html" class="button2">Deuses</a>
+
+    </nav>
+    <div class="seletor"></div>
+    <section class="principal">
+        <div class="container">
+            <a href="Lu-Bu/lu-bu.html" data-aos="fade-left">
+                <div class="personagem">
+                    <article class="container-cartao">
+                        <div class="imagem">
+                            <h3>Lu BU</h3>
+                            <div class="imagem-personagem">
+                                <img src="imagens/lu-bu-logo.jpg" alt="" class="imagem-logo">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </a>
+            <a href="#" data-aos="fade-left">
+                <div class="personagem">
+                    <article class="container-cartao">
+                        <div class="imagem">
+                            <h3>Adão</h3>
+                            <div class="imagem-personagem">
+                                <img src="imagens/adão-logo.jpg" alt="" class="imagem-logo">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </a>
+            <a href="#" data-aos="fade-left">
+                <div class="personagem">
+                    <article class="container-cartao">
+                        <div class="imagem">
+                            <h3>Sasaki Kojiro</h3>
+                            <div class="imagem-personagem">
+                                <img src="imagens/sasaki-logo.jpg" alt="" class="imagem-logo">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </a>
+            <a href="#" data-aos="fade-left">
+                <div class="personagem">
+                    <article class="container-cartao">
+                        <div class="imagem">
+                            <h3>Jack, o Estripador</h3>
+                            <div class="imagem-personagem">
+                                <img src="imagens/jack-logo.jpg" alt="" class="imagem-logo">
+                            </div>
+                            <div class="nome">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </a>
+            <a href="#" data-aos="fade-left">
+                <div class="personagem">
+                    <article class="container-cartao">
+                        <div class="imagem">
+                            <h3>Raiden Tamaemon</h3>
+                            <div class="imagem-personagem">
+                                <img src="imagens/raiden-logo.jpg" alt="" class="imagem-logo">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </a>
+            <a href="#" data-aos="fade-left">
+                <div class="personagem">
+                    <article class="container-cartao">
+                        <div class="imagem">
+                            <h3 class="name-large">buda</h3>
+                            <div class="imagem-personagem">
+                                <img src="imagens/buda-logo.jpg" alt="" class="imagem-logo">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </a>
+            <a href="#" data-aos="fade-left">
+                <div class="personagem">
+                    <article class="container-cartao">
+                        <div class="imagem">
+                            <h3>Quin Shing Huang</h3>
+                            <div class="imagem-personagem">
+                                <img src="imagens/quin-logo.jpg" alt="" class="imagem-logo">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </a>
+            <a href="#" data-aos="fade-left">
+                <div class="personagem">
+                    <article class="container-cartao">
+                        <div class="imagem">
+                            <h3>Nikola Tesla</h3>
+                            <div class="imagem-personagem">
+                                <img src="imagens/tesla-logo.jpg" alt="" class="imagem-logo">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </a>
+            <a href="#" data-aos="fade-left">
+                <div class="personagem">
+                    <article class="container-cartao">
+                        <div class="imagem">
+                            <h3>Simo Hayha</h3>
+                            <div class="imagem-personagem">
+                                <img src="imagens/simo-hayha-logo.jpg" alt="" class="imagem-logo">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </a>
+            <a href="#" data-aos="fade-left">
+                <div class="personagem">
+                    <article class="container-cartao">
+                        <div class="imagem">
+                            <h3>Sakata Kintoki</h3>
+                            <div class="imagem-personagem">
+                                <img src="imagens/sakata-kintoki-logo.jpg" alt="" class="imagem-logo">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </a>
+            <a href="#" data-aos="fade-left">
+                <div class="personagem">
+                    <article class="container-cartao">
+                        <div class="imagem">
+                            <h3 class="name-large">Nostradamus</h3>
+                            <div class="imagem-personagem">
+                                <img src="imagens/michel-logo.jpg" alt="" class="imagem-logo">
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </a>
+        </div>
+    </section>
+</main>
+<footer>
+    <p><strong>Shūmatsu no Valkyrie</strong> é uma série de mangá japonesa escrita por <strong>Shinya Umemura</strong> e <strong>Takumi Fukui</strong> e ilustrada por <strong>Ajichika</strong>. </p>
+</footer>
+
+<script src="JS/mobile.navbar.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+      AOS.init();
+</script>
