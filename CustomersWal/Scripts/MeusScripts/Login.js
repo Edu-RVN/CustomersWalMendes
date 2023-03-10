@@ -16,3 +16,9 @@ document.querySelector('#bntSignup')
         FormSignup.style.left = "25px"
         bntColor.style.left = "110px"
     })
+
+function login(){
+    $('#btnLogin').click(function(){
+        alert('ola');
+    })
+}
